@@ -1,0 +1,25 @@
+body{
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: sans-serif;
+}
+
+.container{
+    margin-top:15%;
+}
+#registroFor{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+#Username{
+    border-radius: 20px;
+}
+
+
+.btn{
+    border-radius: 30px;
+}

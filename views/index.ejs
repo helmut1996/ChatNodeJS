@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+        <form id="registroFor" action ="/chat" method="post">
+        <h1 class="text-center text-white">Bienvenido</h1>
+        <div class="form-group">
+        <p class="text-center">Ingrese tus datos</p>
+            <input type="text" name="username" value="" id="Username" placeholder="Ingrese usuario" class="form-control">
+            <div class=" form-group text-center">
+            <label class="text-white" for="">Hombre</label>
+            <input type="radio" name="sex" value="Masculino" id="m" checked="true" class="mr-2">
+            <label  class="text-white" for="">Mujer </label>
+            <input type="radio" name="sex" value="Femenino" id="f" class="mr-2 ">
+            </div>
+        </div>
+            <button type="submit" id="send-form" class="btn btn-info btn-block">Ingresar</button>
+        </form>
+    </div>
+    </body>
+</html>
